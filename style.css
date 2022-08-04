@@ -1,0 +1,108 @@
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+section .main img{
+    width: 300px;
+    margin: 0 20px;
+    position:relative;
+    left: 470px;
+    top:-90px
+}
+.icons div img{
+    width:18px;
+    height: 20px;
+}
+
+.searchBtn {
+    margin: 0 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    position: relative;
+    top: -110px;
+    left: 80px;
+  }
+  
+  .searchBtn:hover {
+    border: 1px solid #ccc;
+  }
+.searchbx input{
+    position:relative;
+    left: 50px;
+    top:40px;
+    width:500px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 19px;
+    box-shadow: 20px;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    font-family: arial,sans-serif;
+}
+.button{
+    position:relative;
+    left: 150px;
+    top:100px;
+}
+.search{
+    position:relative;
+    left: 70px;
+    top:10px;   
+}
+.mic{
+    position:relative;
+    left: 500px;
+    top:-15px;    
+}
+.menu{
+    display: flex;
+    
+}
+.menu a{
+    position: relative;
+    top:-270px;
+    left: 300px;
+   text-decoration: none;
+   color: rgba(26, 25, 25, 0.897);
+   font-family: arial,sans-serif;
+   font-size: 15px;
+   display: flex;
+}
+
+.grid-item span{
+    font-size: 15px;
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.dropdown1{
+    position:relative ;
+    top:-210px;
+    left: 1100px;
+    
+}
+.gridbtn{
+    position: relative;
+    top: -270px;
+    left: 300px;
+}
+.gridbtn li img{
+    height: 100px;
+    width: 100px;
+}
